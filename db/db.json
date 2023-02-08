@@ -1,83 +1,179 @@
 {
-    "ingredientes": {
-      "paes": [
-        {
-          "id": 1,
-          "tipo": "Italiano Branco"
-        },
-        {
-          "id": 2,
-          "tipo": "3 Queijos"
-        },
-        {
-          "id": 3,
-          "tipo": "Parmesão e Orégano"
-        },
-        {
-          "id": 4,
-          "tipo": "Integral"
-        }
-      ],
-      "carnes": [
-        {
-          "id": 1,
-          "tipo": "Maminha"
-        },
-        {
-          "id": 2,
-          "tipo": "Alcatra"
-        },
-        {
-          "id": 3,
-          "tipo": "Picanha"
-        },
-        {
-          "id": 4,
-          "tipo": "Veggie burger"
-        }
-      ],
-      "opcionais": [
-        {
-          "id": 1,
-          "tipo": "Bacon"
-        },
-        {
-          "id": 2,
-          "tipo": "Cheddar"
-        },
-        {
-          "id": 3,
-          "tipo": "Salame"
-        },
-        {
-          "id": 4,
-          "tipo": "Tomate"
-        },
-        {
-          "id": 4,
-          "tipo": "Cebola roxa"
-        },
-        {
-          "id": 4,
-          "tipo": "Pepino"
-        }
-      ]
-    },
-    "status": [
+  "ingredientes": {
+    "paes": [
       {
         "id": 1,
-        "tipo": "Solicitado"
+        "tipo": "Italiano Branco"
       },
       {
         "id": 2,
-        "tipo": "Em produção"
+        "tipo": "3 Queijos"
       },
       {
         "id": 3,
-        "tipo": "Finalizado"
+        "tipo": "Parmesão e Orégano"
+      },
+      {
+        "id": 4,
+        "tipo": "Integral"
       }
     ],
-    "burgers": [
-      
+    "carnes": [
+      {
+        "id": 1,
+        "tipo": "Maminha"
+      },
+      {
+        "id": 2,
+        "tipo": "Alcatra"
+      },
+      {
+        "id": 3,
+        "tipo": "Picanha"
+      },
+      {
+        "id": 4,
+        "tipo": "Veggie burger"
+      },
+      {
+        "id": 5,
+        "tipo": "Filé ao alho"
+      }
+    ],
+    "opcionais": [
+      {
+        "id": 1,
+        "tipo": "Bacon"
+      },
+      {
+        "id": 2,
+        "tipo": "Cheddar"
+      },
+      {
+        "id": 3,
+        "tipo": "Salame"
+      },
+      {
+        "id": 4,
+        "tipo": "Tomate"
+      },
+      {
+        "id": 5,
+        "tipo": "Cebola roxa"
+      },
+      {
+        "id": 6,
+        "tipo": "Pepino"
+      },
+      {
+        "id": 7,
+        "tipo": "Alface"
+      },
+      {
+        "id": 8,
+        "tipo": "Azeitona preta"
+      }
     ]
-  }
+  },
+  "status": [
+    {
+      "id": 1,
+      "tipo": "Solicitado"
+    },
+    {
+      "id": 2,
+      "tipo": "Em produção"
+    },
+    {
+      "id": 3,
+      "tipo": "Finalizado"
+    }
+  ],
+  "burgers": [
+    {
+      "nome": "flashqueen",
+      "carne": "Picanha",
+      "pao": "3 Queijos",
+      "opcionais": [
+        "Tomate",
+        "Cheddar"
+      ],
+      "status": "Solicitado",
+      "id": 2
+    },
+    {
+      "nome": "antonio",
+      "carne": "Picanha",
+      "pao": "3 Queijos",
+      "opcionais": [],
+      "status": "Solicitado",
+      "id": 6
+    },
+    {
+      "nome": "flashqueen",
+      "carne": "Filé ao alho",
+      "pao": "Integral",
+      "opcionais": [],
+      "status": "Solicitado",
+      "id": 7
+    },
+    {
+      "nome": "antonio",
+      "carne": "Maminha",
+      "pao": "Italiano Branco",
+      "opcionais": [],
+      "status": "Solicitado",
+      "id": 8
+    },
+    {
+      "nome": "João",
+      "carne": "Veggie burger",
+      "pao": "Italiano Branco",
+      "opcionais": [],
+      "status": "Solicitado",
+      "id": 9
+    },
+    {
+      "nome": "João",
+      "carne": "Veggie burger",
+      "pao": "Italiano Branco",
+      "opcionais": [],
+      "status": "Solicitado",
+      "id": 10
+    },
+    {
+      "nome": "João",
+      "carne": "Veggie burger",
+      "pao": "Integral",
+      "status": "Solicitado",
+      "id": 11
+    },
+    {
+      "nome": "flashqueen",
+      "carne": "Alcatra",
+      "pao": "3 Queijos",
+      "status": "Solicitado",
+      "id": 12
+    },
+    {
+      "nome": "flashqueen",
+      "carne": "Picanha",
+      "pao": "Parmesão e Orégano",
+      "opcionais": [],
+      "status": "Solicitado",
+      "id": 13
+    },
+    {
+      "nome": "flashqueen",
+      "carne": "Maminha",
+      "pao": "Italiano Branco",
+      "opcionais": [
+        "Bacon",
+        "Salame",
+        "Azeitona preta"
+      ],
+      "status": "Solicitado",
+      "id": 14
+    }
+  ]
+}
